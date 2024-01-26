@@ -17,7 +17,7 @@
 ### 前端
 - Model : 利用 Entity Framework 從資料庫建立 Model。其中註冊裡的欄位為必填
 - View : 使用 HTML Helper 和 C# 完成 MVC 中 View 的版面配置（Layout）
-- **Controller**：
+- Controller：
   - **HomeController**：使用 C# 撰寫註冊/登入功能。若有資料傳遞，則使用 HTTP POST 方法，因為這樣更安全。
   - **MemberController**：使用 C# 撰寫購物車相關操作。若有資料傳遞，同樣使用 HTTP POST 方法。
 ### 後端
