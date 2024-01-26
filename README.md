@@ -16,7 +16,7 @@
 ## 使用技術
 ### 前端
 - Model : 利用 Entity Framework 從資料庫建立 Model。其中註冊裡的欄位為必填
-- View : 使用 HTML Helper 和 C# 完成 MVC 中 View 的版面配置（Layout）
+- View : 使用 HTML Helper 和 C# 完成view的設計與資料傳遞，並使用 ViewBag 儲存資訊（雖然動態型別較慢，但由於資料量較少且操作方便）。
 - Controller：
   - **HomeController**：使用 C# 撰寫註冊/登入功能。若有資料傳遞，則使用 HTTP POST 方法，因為這樣更安全。
   - **MemberController**：使用 C# 撰寫購物車相關操作。若有資料傳遞，同樣使用 HTTP POST 方法。
