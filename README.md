@@ -24,8 +24,7 @@
 - 使用LINQ語法完成基本CRUD, HomeController / MemberController 皆有使用
 
 ## 其他須注意點
-- 若生成 view 時出現 "viewentityframework 6.4.4' 與 'entityframework.zh-hant 6.2.0 條件約束 entityframework (= 6.2.0)" 不相容的問題
-  需在 NuGet 套件中將 "entityframework.zh-hant 6.2.0" 移除。
+- 若生成 view 時出現 "viewentityframework 6.4.4' 與 'entityframework.zh-hant 6.2.0 條件約束 entityframework (= 6.2.0)" 不相容的問題    需在 NuGet 套件中將 "entityframework.zh-hant 6.2.0" 移除。
 - 若使用了 Authorize 屬性，請確保在 Web.Config 中的 `<system.web>` 內添加以下配置：
     ```xml
     <authentication mode="Forms">
